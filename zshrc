@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="candy"
+ZSH_THEME="random"
 
 # for converting sass to scss or vise versa $ sscv arg arg
 function sscv() { sass-convert "$@" "$@" ;}
@@ -14,8 +14,8 @@ function sscv() { sass-convert "$@" "$@" ;}
 function gi() { sudo gem install "$@" ;}
 
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zcon="st ~/.zshrc"
+alias omz="st ~/.oh-my-zsh"
 
 alias ll='ls -la'
 alias dt='cd ~/Desktop'
